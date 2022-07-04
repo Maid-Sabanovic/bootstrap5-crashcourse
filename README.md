@@ -2,7 +2,9 @@
 
 This project is created with this tutorial: https://youtu.be/4sosXZsdy-s
 
-It uses bootstrap5 and is a small project I can use for a big website project which I'm going to do in the future, stay tuned.
+It uses Angular and, as the name suggests, bootstrap 5.
+
+The purpose of this project is to create a small project I can use for a big website project which I'm going to do in the future, stay tuned.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
