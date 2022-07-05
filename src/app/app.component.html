@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
     <div class="container">
         <a href="#" class="navbar-brand">Mreza Mladih Test</a>
 
@@ -37,7 +37,7 @@
                     Das Ziel ist es eine blog-artige Plattform für Mreza Mladih NRW zu
                     erstellen.
                 </p>
-                <button class="btn btn-primary btn-lg">Hier geht's los</button>
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Hier geht's los</button>
             </div>
             <img class="img-fluid w-50 d-none d-sm-block" src="../assets/img/showcase.svg" alt="">
         </div>
@@ -51,13 +51,8 @@
             <h3 class="mb-3 mb-md-0">Sign Up for Newsletter</h3>
 
             <div class="input-group news-input">
-                <input 
-                    type="text" 
-                    class="form-control" 
-                    placeholder="Enter email">
-                <button 
-                    class="btn btn-dark btn-lg" 
-                    type="button">
+                <input type="text" class="form-control" placeholder="Enter email">
+                <button class="btn btn-dark btn-lg" type="button">
                     Submit
                 </button>
             </div>
@@ -79,7 +74,7 @@
                             Virtual
                         </h3>
                         <p class="card-text">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Necessitatibus laudantium modi assumenda ipsa sapiente deserunt.
                         </p>
                         <a href="#" class="btn btn-primary">Read More</a>
@@ -96,7 +91,7 @@
                             Hybrid
                         </h3>
                         <p class="card-text">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Necessitatibus laudantium modi assumenda ipsa sapiente deserunt.
                         </p>
                         <a href="#" class="btn btn-dark">Read More</a>
@@ -113,7 +108,7 @@
                             In Person
                         </h3>
                         <p class="card-text">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Necessitatibus laudantium modi assumenda ipsa sapiente deserunt.
                         </p>
                         <a href="#" class="btn btn-primary">Read More</a>
@@ -134,13 +129,13 @@
             <div class="col-md p-5">
                 <h2>Learn the fundamentals</h2>
                 <p class="lead">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Magnam vel ipsam asperiores in, sit beatae.
                 </p>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Quis nulla quas nisi iste porro temporibus praesentium. 
-                    Magni necessitatibus natus maiores culpa. 
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quis nulla quas nisi iste porro temporibus praesentium.
+                    Magni necessitatibus natus maiores culpa.
                     At vel officiis quis placeat cupiditate consectetur excepturi quibusdam!
                 </p>
                 <a href="#" class="btn btn-light mt-3">
@@ -151,3 +146,303 @@
         </div>
     </div>
 </section>
+
+<!-- Learn Sections Angular -->
+<section class="p-5 bg-dark text-light" id="learn">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+
+            <div class="col-md p-5">
+                <h2>Learn angular</h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magnam vel ipsam asperiores in, sit beatae.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quis nulla quas nisi iste porro temporibus praesentium.
+                    Magni necessitatibus natus maiores culpa.
+                    At vel officiis quis placeat cupiditate consectetur excepturi quibusdam!
+                </p>
+                <a href="#" class="btn btn-light mt-3">
+                    <i class="bi bi-chevron-right"></i>
+                    Read More
+                </a>
+            </div>
+            <div class="col-md">
+                <img src="../assets/img/angular.svg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Question Accordion-->
+<section id="questions" class="p-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+            <!-- Item 1-->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#question-one">
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consectetur aliquam
+                        blanditiis quisquam temporibus animi quasi numquam id voluptas quia inventore magni voluptatibus
+                        fuga, obcaecati quae culpa enim sed aspernatur. Aliquid animi provident, ipsum id doloribus
+                        necessitatibus.
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2-->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#question-two">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consectetur aliquam
+                        blanditiis quisquam temporibus animi quasi numquam id voluptas quia inventore magni voluptatibus
+                        fuga, obcaecati quae culpa enim sed aspernatur. Aliquid animi provident, ipsum id doloribus
+                        necessitatibus.
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3-->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#question-three">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consectetur aliquam
+                        blanditiis quisquam temporibus animi quasi numquam id voluptas quia inventore magni voluptatibus
+                        fuga, obcaecati quae culpa enim sed aspernatur. Aliquid animi provident, ipsum id doloribus
+                        necessitatibus.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Member -->
+<section id="instructors" class="p-5 bg-primary">
+    <div class="container">
+        <h2 class="text-center text-white">
+            Member
+        </h2>
+        <p class="lead text-center text-white mb-5">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="../assets/img/sam-zentriert.jpg" class="rounded-circle mb-3 img-fluid" alt="">
+                        <h3 class="card-title mb-3">
+                            Maid Sabanovic
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis possimus, quae sint fuga
+                            excepturi quis inventore blanditiis adipisci error quam esse consectetur repellat quia ad
+                            ipsa pariatur voluptate saepe neque!
+                        </p>
+                        <a href="#"><i class="bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi-twitter text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="../assets/img/sam-zentriert.jpg" class="rounded-circle mb-3 img-fluid" alt="">
+                        <h3 class="card-title mb-3">
+                            Maid Sabanovic
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis possimus, quae sint fuga
+                            excepturi quis inventore blanditiis adipisci error quam esse consectetur repellat quia ad
+                            ipsa pariatur voluptate saepe neque!
+                        </p>
+                        <a href="#"><i class="bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi-twitter text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="../assets/img/sam-zentriert.jpg" class="rounded-circle mb-3 img-fluid" alt="">
+                        <h3 class="card-title mb-3">
+                            Maid Sabanovic
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis possimus, quae sint fuga
+                            excepturi quis inventore blanditiis adipisci error quam esse consectetur repellat quia ad
+                            ipsa pariatur voluptate saepe neque!
+                        </p>
+                        <a href="#"><i class="bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi-twitter text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="../assets/img/sam-zentriert.jpg" class="rounded-circle mb-3 img-fluid" alt="">
+                        <h3 class="card-title mb-3">
+                            Maid Sabanovic
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis possimus, quae sint fuga
+                            excepturi quis inventore blanditiis adipisci error quam esse consectetur repellat quia ad
+                            ipsa pariatur voluptate saepe neque!
+                        </p>
+                        <a href="#"><i class="bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi-twitter text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact & Map-->
+<section class="p-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md">
+                <h2 class="text-center mb-4">
+                    Contact Info
+                </h2>
+                <ul class="list-group list-group-flush lead">
+                    <li class="list-group-item">
+                        <span class="fw-bold">
+                            Element:
+                        </span>
+                        Elementinhalt
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">
+                            Element:
+                        </span>
+                        Elementinhalt
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">
+                            Element:
+                        </span>
+                        Elementinhalt
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">
+                            Element:
+                        </span>
+                        Elementinhalt
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">
+                            Element:
+                        </span>
+                        Elementinhalt
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2472.7948658243786!2d7.823932016090012!3d51.70019890440843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9743dcb9ad30f%3A0x12f921186d44234b!2sAm%20Roggenkamp%2C%2059073%20Hamm!5e0!3m2!1sde!2sde!4v1657023356092!5m2!1sde!2sde"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+        <p class="lead">
+            Copyright &copy; 2022 Mreza Mladih Website
+        </p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div
+class="modal fade"
+id="enroll"
+tabindex="-1"
+aria-labelledby="enrollLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body">
+      <p class="lead">Fill out this form and we will get back to you</p>
+      <form>
+        <div class="mb-3">
+          <label for="first-name" class="col-form-label">
+            First Name:
+          </label>
+          <input type="text" class="form-control" id="first-name" />
+        </div>
+        <div class="mb-3">
+          <label for="last-name" class="col-form-label">Last Name:</label>
+          <input type="text" class="form-control" id="last-name" />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="col-form-label">Email:</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="col-form-label">Phone:</label>
+          <input type="tel" class="form-control" id="phone" />
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button
+        type="button"
+        class="btn btn-secondary"
+        data-bs-dismiss="modal"
+      >
+        Close
+      </button>
+      <button type="button" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</div>
+</div>
